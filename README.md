@@ -63,7 +63,10 @@ python main.py
 
 ## 📝 Findings Note
 
-In many transformer models, you will observe that MLP residuals often have higher magnitudes than Attention residuals in later layers, suggesting that MLPs perform the bulk of the "knowledge processing" while Attention focus on "information routing."
+In many transformer models, you will observe that MLP residuals often have higher magnitudes than Attention residuals in later layers, suggesting that MLPs perform the bulk of the "knowledge processing" while Attention 
+focus on "information routing."
+
+<img width="1026" height="609" alt="image" src="https://github.com/user-attachments/assets/0949d45e-8865-4cb4-b0df-b362184f0eb3" />
 
 ---
 
