@@ -10,7 +10,6 @@ print("Tokenizer and Model loaded successfully.")
 
 
 
-
 import torch
 
 # 1. Define sample input data
@@ -19,6 +18,9 @@ sample_sentences = [
     "Transformers are powerful models for natural language processing.",
     "Residual connections are crucial for deep neural networks."
 ]
+
+# Set the pad token for the tokenizer (GPT-2 tokenizer does not have one by default)
+tokenizer.pad_token = tokenizer.eos_token
 
 # 2. Tokenize the input data
 # Using the tokenizer loaded in the previous step
