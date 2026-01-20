@@ -59,18 +59,15 @@ python main.py
 ## 📊 Key Metrics Analyzed
 
 1. **Residual Distribution**: A histogram showing the frequency of different magnitude ranges for Attention vs. MLP layers.
+<img width="1013" height="427" alt="image" src="https://github.com/user-attachments/assets/e622a982-faab-4f9b-8ba5-647dd79d8baf" />
 2. **Layer-wise Evolution**: A line graph tracking how the average "update size" changes as information flows from the embedding layer (Layer 0) to the final output layer.
+<img width="1026" height="609" alt="image" src="https://github.com/user-attachments/assets/0949d45e-8865-4cb4-b0df-b362184f0eb3" />
+
 
 ## 📝 Findings Note
 
 In many transformer models, you will observe that MLP residuals often have higher magnitudes than Attention residuals in later layers, suggesting that MLPs perform the bulk of the "knowledge processing" while Attention 
 focus on "information routing."
-
-## 📊 Generated Graphs
-
-<img width="1026" height="609" alt="image" src="https://github.com/user-attachments/assets/0949d45e-8865-4cb4-b0df-b362184f0eb3" />
-
-<img width="1013" height="427" alt="image" src="https://github.com/user-attachments/assets/e622a982-faab-4f9b-8ba5-647dd79d8baf" />
 
 
 ---
